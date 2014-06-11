@@ -1,0 +1,24 @@
+﻿Build started 6/11/2014 2:59:17 PM.
+     1>Project "\\cs1\CS_Students\msherve16\CS172\Homework 5\Homework5e\Homework5e\Homework5e.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc110.pdb" /Gd /TP /analyze- /errorReport:prompt Source.cpp
+         Source.cpp
+     1>\\cs1\cs_students\msherve16\cs172\homework 5\homework5e\homework5e\source.cpp(79): error C2664: 'void std::vector<_Ty>::push_back(Transaction &&)' : cannot convert parameter 1 from 'int' to 'Transaction &&'
+                 with
+                 [
+                     _Ty=Transaction
+                 ]
+                 Reason: cannot convert from 'int' to 'Transaction'
+                 No constructor could take the source type, or constructor overload resolution was ambiguous
+     1>\\cs1\cs_students\msherve16\cs172\homework 5\homework5e\homework5e\source.cpp(96): error C2664: 'void std::vector<_Ty>::push_back(Transaction &&)' : cannot convert parameter 1 from 'int' to 'Transaction &&'
+                 with
+                 [
+                     _Ty=Transaction
+                 ]
+                 Reason: cannot convert from 'int' to 'Transaction'
+                 No constructor could take the source type, or constructor overload resolution was ambiguous
+     1>Done Building Project "\\cs1\CS_Students\msherve16\CS172\Homework 5\Homework5e\Homework5e\Homework5e.vcxproj" (Build target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:00.85
